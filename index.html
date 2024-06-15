@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Father's Day!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, rgba(44, 62, 80, 0.9), rgba(52, 73, 94, 0.9)), url('pexels-elina-araja-1743227-3377405.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #ecf0f1;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+            background: rgba(44, 62, 80, 0.9);
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+            width: 90%;
+            max-width: 600px;
+            animation: fadeIn 2s ease-in;
+            box-sizing: border-box;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            color: #f1c40f;
+            font-size: 36px;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            animation: slideIn 1.5s ease-in-out;
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateX(-100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.4;
+            margin-top: 10px;
+            color: #ecf0f1;
+        }
+
+        .special-message {
+            font-size: 18px;
+            color: #e74c3c;
+            margin-top: 20px;
+            font-weight: 500;
+            animation: fadeInMessage 4s ease-in-out;
+        }
+
+        @keyframes fadeInMessage {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        button {
+            font-size: 16px;
+            padding: 10px 20px;
+            margin-top: 20px;
+            border: 1px solid transparent;
+            border-radius: 5px;
+            background-color: #f1c40f;
+            color: #2c3e50;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #d4ac0d;
+            transform: translateY(-3px);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Happy Father's Day!</h1>
+        <p>Dear Dad, your strength and guidance have been a constant source of inspiration. Thank you for always being there for me.</p>
+        <p class="special-message">"A father is someone you look up to no matter how tall you grow." - By Rodan :) </p>
+    </div>
+</body>
+
+</html>
